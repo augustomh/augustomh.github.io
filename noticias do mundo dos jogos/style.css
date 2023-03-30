@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+}
+
+#menu {
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#materias ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#materias ul li {
+
+    margin: 10px;
+    width: 100%;
+}
+
+#materias ul li a {
+    display:flex;
+    gap: 15px;
+    align-items: center;
+    width:100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#principal {
+    border:0px solid black; 
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+}
+
+#d-block w-100 {
+    height:100px;
+    width:100px;
+
+}
+
+
