@@ -1,55 +1,96 @@
 body {
-    background-color: black;
+    margin: 0;
 }
 
-
-.container {
+.menu {
+    background-color: #c4ac42;
+    color: white;
+    height: 100px;
+    margin: 0;
+    padding: 0;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
-#menu {
-    background-color: rgb(26, 26, 26);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.menu li {
+    width: 400px;
+    display: flex;
+    justify-content: center;
 }
 
-#materias ul {
+.navbar input{
+    border: black ;
+    height: 40px;
+    width: 190px;
+    border-radius: 15px;
+}
+
+.banner {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.a {
+    background-color: chocolate;
+    width: 100%;
+    height: 100%;
+}
+.principal {
+    width: calc(60% - 20px);
+    background-image: url(imagens/Pickup-Nissan-GT-R-inspirada-nos-Hakotoras-02-1-e1681217567680-696x391.jpg);
+    background-size: 100% 100%;
+    border-radius: 3%;
+}
+
+.secundaria {
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img1 {
+    background-image: url(imagens/VW-Fusca-Ducktail-Cabrio-mistura-Widebody-com-JDM-01-e1655303809394-696x424.jpg);
+    height: calc(50% - 10px);
+    background-size:100% 100%;
+    border-radius: 3%;
+}
+
+.img2 {
+    background-image: url(imagens/Conheca-a-moto-BMX-com-motor-Ducati-01-696x464.jpg);
+    height: calc(50% - 10px);
+    background-size: 100% 100%;
+    border-radius: 3%;
+}
+
+.materia ul{
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    display:flex;
-    flex-direction:column;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-#materias ul li {
-
+.materia ul li {
     margin: 10px;
     width: 100%;
+    text-align: right;
 }
 
-#materias ul li a {
-    display:flex;
-    gap: 15px;
-    align-items: center;
-    width:100%;
-    color: rgb(255, 255, 255);
+.materia ul li a {
+    display: flex;
+    border-radius: 3%;
+    width: 100%;
+    color: black;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-#principal {
-    border:0px solid black; 
-    background-color: transparent;
-    color:rgb(255, 255, 255);
+.materia ul li a img {
+    border-radius: 5%;
 }
-
-#d-block w-100 {
-    height:100px;
-    width:100px;
-
-}
-
-
